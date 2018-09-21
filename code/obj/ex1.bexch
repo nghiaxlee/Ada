@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__ex1.o
+[PROJECT FILES]
+C:\Users\aaogmu\ada\code\default.gpr
+20180921142530
+[BOUND OBJECT FILES]
+C:\Users\aaogmu\ada\code\obj\ex1.o
+[GENERATED SOURCE FILES]
+b__ex1.ads
+b__ex1.adb
+b__ex1.ali
+[RESULTING OPTIONS]
+-LC:\Users\aaogmu\ada\code\obj\
+-LC:\Users\aaogmu\ada\code\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
