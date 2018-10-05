@@ -1,0 +1,122 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_RECURSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		0f54a565 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W matrix_pack%s		matrix_pack.adb		matrix_pack.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D main.adb		20181005150230 67f94b1d main%b
+D matrix_pack.ads	20181005130900 e0b05d22 matrix_pack%s
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-conca6.ads		20180524051736 d2c72db2 system.concat_6%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 2r9
+242U14*Put 10|112s10
+263U14*Put_Line 10|92s19
+X 10 main.adb
+6U11*Main 6b11 167l5 167t9
+8A9 TArray(11|4I10)<11|3I10> 11r7 31r31 47r25 70r16
+9A9 Coord(11|3I10)<11|3I10> 15r8 16r8
+11a4 T{8A9}
+12a4 M{11|5A10}
+13a4 M1{11|5A10} 14r20 14r33 18r19 18r34 19r17 20r17 104r24 105r24 106r24
+. 107r24 108r31 108r76 109r31 109r76 112r25 115r20 120r20 125r20 130r20 162r13
+14a4 visited{11|5A10} 108r10 108r45 108r90 109m10 109r45 109r90
+15a4 XI{9A9} 21r17 104r14 105r14 108r22 109r22 110r19 114r18 119r18 124r18
+. 129r18 145r16 146r16
+16a4 YI{9A9} 22r17 106r14 107r14 108r67 109r67 111r19 148r16 149r16
+17i4 cnt{11|3I10} 113m10 113r17 139r10
+18i4 size{11|3I10} 139r16
+19i4 XX{11|3I10}
+20i4 YY{11|3I10}
+21i4 DX{11|3I10}
+22i4 DY{11|3I10}
+24U14 Swap 24b14 24=21 24=24 29l8 29t12 39s19
+24i21 A{11|4I10} 25r20 27m7
+24i24 B{11|4I10} 27r12 28m7
+25i7 Tmp{11|4I10} 28r12
+31U14 BBSort 31b14 31=21 45l8 45t14
+31a21 T{8A9} 36r19 37r21 38r19 38r26 39m24 39r24 39m30 39r30
+32b7 swapped{boolean} 34r13 35m10 40m19
+36i14 i<integer> 37r16 38r21 38r39 39r26 39r43
+47V13 AddRecur{11|4I10} 47b13 47>22 50s30 54l8 54t16
+47a22 T{8A9} 49r10 50r17 50r19 50r40 50r53 50r63 52r17 52r19
+56V13 SumDiag{11|4I10} 56b13 56>21 67l8 67t15
+56a21 M{11|5A10} 59r16 60r19 61r20 61r37 62r25
+57i7 s{11|4I10} 62m16 62r21 66r14
+59i11 i<integer> 61r16 62r27
+60i14 j<integer> 61r33 62r30
+69U14 LocalMax 69b14 69>23 99l8 99t16 162s4
+69a23 M{11|5A10} 70r23 73r16 75r19 76r26 77r27 80r22 82r16 84r19 85r26 86r27
+. 89r19 90r26 91r41 92r50 93r46
+70a7 min_col{8A9} 80m10 80r35 91r29 91r54
+71i7 min_val{11|4I10} 74m10 76r16 77m16 80r53
+71i16 max_val{11|4I10} 83m10 85r16 86m16 90r16 91r19 94r41
+73i11 j<integer> 76r31 77r32 80r18
+75i14 i<integer> 76r28 77r29
+82i11 i<integer> 85r28 86r29 90r28 92r46
+84i14 j<integer> 85r31 86r32
+89i14 j<integer> 90r31 91r37 93r42
+101U14 Looping 101b14 101=22 101=39 101=56 101=74 135l8 135t15 142s7
+101i22 X{11|3I10} 104r10 105r10 108r18 109r18 110m10 110r15 112r28 120r16
+. 130r16
+101i39 Y{11|3I10} 106r10 107r10 108r63 109r63 111m10 111r15 112r31 115r16
+. 125r16
+101i56 dx{11|3I10} 104r17 105r17 108r25 109r25 110r22 114r13 119r13 124r13
+. 129r13
+101i74 dy{11|3I10} 106r17 107r17 108r70 109r70 111r22
+137U14 Spiral 137b14 137=21 137=38 137=55 137=73 151s7 152l8 152t14
+137i21 X{11|3I10} 142m15 151m14
+137i38 Y{11|3I10} 142m18 151m17
+137i55 dx{11|3I10} 142m21 143m7 143r13 145r11 146m10 151m20
+137i73 dy{11|3I10} 142m25 144m7 144r13 148r11 149m10 151m24
+X 11 matrix_pack.ads
+1K9*Matrix_pack 10|3w6 4r5 56r39 57r10 11|13e16
+3I10*Index<integer> 10|8r26 9r25 9r44 17r9 18r10 19r8 20r8 21r8 22r8 38r28
+. 39r32 50r42 92r34 93r30 101r32 101r49 101r67 101r85 137r31 137r48 137r66
+. 137r84
+4I10*Elem<integer> 10|8r45 24r34 25r12 47r40 56r51 57r22 71r25 74r21 83r21
+. 94r30 112r14
+5A10*Matrix(4I10)<3I10><3I10> 10|12r7 13r8 14r13 56r24 69r26
+

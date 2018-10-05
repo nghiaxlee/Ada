@@ -1,0 +1,71 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U sort%b		sort.adb		a557ee5d NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D sort.adb		20181005125720 2d4a5d07 sort%b
+D system.ads		20180524051738 32a08138 system%s
+D s-conca3.ads		20180524051738 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 2r9
+263U14*Put_Line 10|42s7 46s8
+X 10 sort.adb
+4U11*sort 4b11 48l5 48t9
+6I10 Index<integer> 8r27 10r43 11r13 29r13 42r16 42r62
+7I10 Elem<integer> 8r46 21r35 22r14 42r49 46r18
+8A10 TArray(7I10)<6I10> 10r27 28r33 37r8
+10V14 Max_Pos{6I10} 10b14 10>24 19l9 19t16 32s19
+10a24 T{8A10} 11r22 13r18 14r16 14r24
+11i9 Mh{6I10} 14r18 15m17 18r16
+13i13 I<integer> 14r26 15r23
+21U15 Swap 21b15 21=22 21=25 26l9 26t13 33s13
+21i22 A{7I10} 22r22 24m9
+21i25 B{7I10} 24r14 25m9
+22i9 Tmp{7I10} 25r14
+28U15 Order 28b15 28=23 35l9 35t14 44s5
+28a23 T{8A10} 31r26 32r28 32r30 33m19 33r19 33m25 33r25
+29i9 Mh{6I10} 32m13 33r27
+31i13 I<integer> 32r39 33r21
+37a5 T{8A10} 41r21 42r32 42r60 42r73 44m11 44r11 45r14 46r30
+41i8 I<integer> 42r28
+45i9 I<integer> 46r32
+

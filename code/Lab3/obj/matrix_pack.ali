@@ -1,0 +1,60 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U matrix_pack%b		matrix_pack.adb		b85c5e99 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U matrix_pack%s		matrix_pack.ads		e0b05d22 EE NE OO PK
+
+D matrix_pack.ads	20181005130900 e0b05d22 matrix_pack%s
+D matrix_pack.adb	20181005130856 58ec03bb matrix_pack%b
+D system.ads		20180524051738 32a08138 system%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+X 1 matrix_pack.ads
+1K9*Matrix_pack 13l5 13e16 2|1b14 63l5 63t16
+3I10*Index<integer> 5r27 5r43
+4I10*Elem<integer> 5r62 10r23 11r32 2|43r23 54r32
+5A10*Matrix(4I10)<3I10><3I10> 7r30 7r44 8r25 8r41 9r26 9r42 10r32 10r48 11r48
+. 2|3r30 3r44 14r25 14r41 16r12 29r26 29r42 30r12 43r32 43r48 44r12 54r48
+7U15*Add 7=20 7>38 2|3b15 12l9 12t12
+7a20 A{5A10} 2|3b20 6r18 7r22 8m17 8r27 8r41 9r41
+7a38 B{5A10} 2|3b38 8r36 8r52 9r52
+8V15*"+"{5A10} 8>19 8>22 2|14b15 27l10 27t12
+8a19 A{5A10} 2|14b19 16r19 16r30 20r18 21r22 22r27 22r41 23r41
+8a22 B{5A10} 2|14b22 22r36 22r52 23r52
+9V15*"*"{5A10} 9>20 9>23 2|29b15 41l10 41t12
+9a20 A{5A10} 2|29b20 30r20 34r26 35r40 35r57 36r44
+9a23 B{5A10} 2|29b23 30r32 35r46 36r40 36r55
+10V15*"*"{5A10} 10>20 10>29 2|43b15 52l10 52t12
+10i20 E{4I10} 2|43b20 48r27
+10a29 M{5A10} 2|43b29 44r19 44r30 46r18 47r22 48r31
+11U15*Multiply 11>26 11=38 2|54b15 61l9 61t17
+11i26 E{4I10} 2|54b26 58r27
+11a38 M{5A10} 2|54b38 56r18 57r22 58m17 58r31
+X 2 matrix_pack.adb
+6i13 I<integer> 8r19 8r29 8r39
+7i17 J<integer> 8r21 8r31 9r39
+16a9 C{1|5A10} 22m17 26r16
+20i13 I<integer> 22r19 22r29 22r39
+21i17 J<integer> 22r21 22r31 23r39
+30a9 C{1|5A10} 32r18 33r22 35m21 35r31 40r16
+32i13 I<integer> 35r23 35r33 35r42
+33i17 J<integer> 35r25 35r35 36r66
+34i21 K<integer> 35r44 36r42
+44a9 C{1|5A10} 48m17 51r16
+46i13 I<integer> 48r19 48r33
+47i17 J<integer> 48r21 48r35
+56i13 I<integer> 58r19 58r33
+57i17 J<integer> 58r21 58r35
+
