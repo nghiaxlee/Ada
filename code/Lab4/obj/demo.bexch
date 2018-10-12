@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__demo.o
+[PROJECT FILES]
+C:\Users\aaogmu\ada\code\Lab4\default.gpr
+20181012124524
+[BOUND OBJECT FILES]
+C:\Users\aaogmu\ada\code\Lab4\obj\gcd.o
+C:\Users\aaogmu\ada\code\Lab4\obj\setq.o
+C:\Users\aaogmu\ada\code\Lab4\obj\demo.o
+[GENERATED SOURCE FILES]
+b__demo.ads
+b__demo.adb
+b__demo.ali
+[RESULTING OPTIONS]
+-LC:\Users\aaogmu\ada\code\Lab4\obj\
+-LC:\Users\aaogmu\ada\code\Lab4\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

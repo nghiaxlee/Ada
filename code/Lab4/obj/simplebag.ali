@@ -1,0 +1,105 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U simplebag%b		simplebag.adb		bc478a6a NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+
+U simplebag%s		simplebag.ads		4e38da5c EE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-inteio.ads		20180524051738 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D simplebag.ads		20181012151554 4e38da5c simplebag%s
+D simplebag.adb		20181012151900 8c296ac8 simplebag%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 2r6 32r10 33r10 34r10 35r10 57r10 58r10 59r10 60r10
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 13|1w10 32r14 34r14 57r14 59r14
+X 7 a-textio.ads
+49K13*Text_IO 471e16 13|2w10 33r14 35r14 58r14 60r14
+242U14*Put 13|33s22 58s22
+263U14*Put_Line 13|35s22 60s22
+X 8 a-tiinio.ads
+66U14*Put 13|32s30[3|18] 34s30[3|18] 57s30[3|18] 59s30[3|18]
+X 12 simplebag.ads
+1K9*SimpleBag 20E9 34l5 34e14 13|4b14 69l5 69t14
+2I12*Elem{natural} 8r45 9r50 10r46 11r51 24r46 13|5r45 10r50 15r46 20r51
+4R9*ComplexElem 14r50 17r51 20c9 23e14 25r46 13|39r50 64r51
+5R9*Bag 8r34 9r39 10r35 11r40 12r24 13r23 26c9 29e14 13|5r34 10r39 15r35
+. 20r40 25r24 29r23
+6R9*ComplexBag 14r32 15r24 30c9 33e14 13|39r32 54r24
+8U14*InsertOne 8=24 8>39 13|5b14 9t7
+8r24 B{5R9} 13|5b24 7m7 7r17 8m7 8r17
+8i39 E{2I12} 13|5b39 7r11 7r21
+9U14*InsertMultiple 9=29 9>44 9>56 13|10b14 14t7
+9r29 B{5R9} 13|10b29 12m7 12r17 13m7 13r17
+9i44 E{2I12} 13|10b44 12r11 12r21
+9i56 N{natural} 13|10b56 12r26 13r26
+10U14*ExtractOne 10=25 10>40 13|15b14 19t7
+10r25 B{5R9} 13|15b25 17m7 17r17 18m7 18r17
+10i40 E{2I12} 13|15b40 17r11 17r21
+11U14*ExtractMultiple 11=30 11>45 11>57 13|20b14 24t7
+11r30 B{5R9} 13|20b30 22m7 22r17 23m7 23r17
+11i45 E{2I12} 13|20b45 22r11 22r21
+11i57 N{natural} 13|20b57 22r26 23r26
+12V13*IsEmpty{boolean} 12>21 13|25b13 28t7
+12r21 B{5R9} 13|25b21 27r14
+13U14*Print 13>20 13|29b14 37t7
+13r20 B{5R9} 13|29b20 34r34
+14U14*Insert 14=21 14>44 13|39b14 53t7
+14r21 CB{6R9} 13|39b21 42r19 43r14 44m13 44r28 50m10 50r21 51m10 51r15
+14r44 E{4R9} 13|39b44 43r26 44r42 51r27
+15U14*Print 15>20 13|54b14 62t7
+15r20 CB{6R9} 13|54b20 56r19 57r34 59r34
+17V13*Init{4R9} 17>18 17>30 13|64b13 67t7
+17i18 V{integer} 13|64b18 66r15
+17i30 Num{natural} 13|64b30 66r18
+21i7*V{integer} 13|43r22 43r28 57r42
+22i7*Num{natural} 13|44m21 44r36 44r44 59r42
+24A9 TArray(2I12)<integer> 27r10
+25A9 CArray(4R9)<integer> 31r10
+27a7*A{24A9} 13|7m9 7r19 12m9 12r19 17m9 17r19 22m9 22r19 34r36
+28i7*Size{natural} 13|8m9 8r19 13m9 13r19 18m9 18r19 23m9 23r19 27r16
+31a7*A{25A9} 13|43r17 44m16 44r31 51m13 57m37 59m37
+32i7*Size{natural} 13|42r22 50m13 50r24 51r18 56r22
+X 13 simplebag.adb
+31i11 I{integer} 32r34 34r38
+40b7 found{boolean} 45m13 48r15
+42i11 I{integer} 43r19 44r18 44r33
+56i11 I{integer} 57r39 59r39
+

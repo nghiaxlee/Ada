@@ -1,0 +1,44 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U complexqueue%b	complexqueue.adb	9e998e7d NE OO PK
+Z interfaces%s		interfac.ads		interfac.ali
+
+U complexqueue%s	complexqueue.ads	f1bfc3e0 EE NE OO PK
+
+D complexqueue.ads	20181012140832 f1bfc3e0 complexqueue%s
+D complexqueue.adb	20181012142148 6f264d9d complexqueue%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D system.ads		20180524051738 32a08138 system%s
+X 1 complexqueue.ads
+1K9*ComplexQueue 13E9 18l5 18e17 2|1b14 28l5 28t17
+2I12*Elem{integer} 6r42 7r42 13r46 2|3r42 8r42
+4R9*Queue 4d15 6r29 7r28 8r24 9r23 10r21 14c9 17e14 2|3r29 8r28 16r24 20r23
+. 24r21
+4i15 Max{positive} 14r15 15r20
+6U14*Push 6=19 6>36 2|3b14 7t7
+6r19 Q{4R9} 2|3b19 5m7 5r17 6m7 6r11
+6i36 E{2I12} 2|3b36 6r22
+7U14*Pop 7=18 7<35 2|8b14 15t7
+7r18 Q{4R9} 2|8b18 10r12 11r19 12m10 12r34 14m7 14r17
+7i35 E{2I12} 2|8b35 10m7
+8V13*IsEmpty{boolean} 8>21 2|16b13 19t7
+8r21 Q{4R9} 2|16b21 18r19
+9V13*IsFull{boolean} 9>20 2|20b13 23t7
+9r20 Q{4R9} 2|20b20 22r19 22r24
+10V13*Size{natural} 10>18 2|18s14 22s14 24b13 27t7
+10r18 Q{4R9} 2|24b18 26r14
+13A9 TArray(2I12)<integer> 15r10
+15a7*A{13A9} 2|6m9 10r14 12m12 12r36
+16i7*Size{natural} 2|5m9 5r19 6r13 11r21 14m9 14r19 22r26 26r16
+X 2 complexqueue.adb
+11i11 I{integer} 12r27 12r38
+
