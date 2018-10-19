@@ -1,0 +1,29 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U has_repetition%b	has_repetition.adb	89f29f46 NE OO SU GE IL
+
+U has_repetition%s	has_repetition.ads	c79ade6d BN EE NE OO GE IL
+
+D has_repetition.ads	20181019144338 c79ade6d has_repetition%s
+D has_repetition.adb	20181019145248 4e68412b has_repetition%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 has_repetition.ads
+2+9 Elem 4r45
+3E9 Index 4r26 2|2r7 3r7 5r22 6r19
+4A9 Vector(2+9)<3E9> 5r28 2|1r28
+5v10*has_repetition 5>25 2|1b10 11l5 11t19
+5*25 v{4A9} 2|1b25 2r16 3r16 5r13 5r33 6r10 6r17
+X 2 has_repetition.adb
+2*4 l{1|3E9}
+3*4 r{1|3E9}
+5e8 i 6r12 6r30
+

@@ -10,7 +10,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main%b		main.adb		ce8b5b84 NE OO SU
+U main%b		main.adb		5e280938 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.command_line%s	a-comlin.adb		a-comlin.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -30,7 +30,7 @@ D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D complexqueue.ads	20181012140832 f1bfc3e0 complexqueue%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
-D main.adb		20181012151658 cde1aef4 main%b
+D main.adb		20181012152634 5d42fc48 main%b
 D simplebag.ads		20181012151554 4e38da5c simplebag%s
 D system.ads		20180524051738 32a08138 system%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
@@ -54,9 +54,9 @@ X 4 a-inteio.ads
 X 11 complexqueue.ads
 1K9*ComplexQueue 18e17 14|1w17
 X 14 main.adb
-4U11*Main 4b11 24l5 24t9
+4U11*Main 4b11 26l5 26t9
 6r4 B{15|5R9} 18m14 18r14 19m19 19r19 20m20 20r20 21r10
-7r4 CB{15|6R9} 22m11 22r11 23r10
+7r4 CB{15|6R9} 22m11 22r11 23m11 23r11 24m11 24r11 25r10
 X 15 simplebag.ads
 1K9*SimpleBag 14|1w6 3r5 15|34e14
 5R9*Bag 14|6r7 15|29e14
@@ -65,7 +65,7 @@ X 15 simplebag.ads
 9U14*InsertMultiple 14|19s4
 11U14*ExtractMultiple 14|20s4
 13U14*Print 14|21s4
-14U14*Insert 14|22s4
-15U14*Print 14|23s4
-17V13*Init{4R9} 14|22s15
+14U14*Insert 14|22s4 23s4 24s4
+15U14*Print 14|25s4
+17V13*Init{4R9} 14|22s15 23s15 24s15
 

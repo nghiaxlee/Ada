@@ -20,5 +20,7 @@ begin
    ExtractMultiple(B, 100, 100);
    Print(B);
    Insert(CB, Init(3, 10));
+   Insert(CB, Init(1, 10));
+   Insert(CB, Init(3, 10));
    Print(CB);
 end Main;

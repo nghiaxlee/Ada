@@ -1,0 +1,36 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U duplicate%b		duplicate.adb		380d1ea6 NE OO SU GE
+
+U duplicate%s		duplicate.ads		108aef86 BN EE NE OO GE
+
+D duplicate.ads		20181019142452 108aef86 duplicate%s
+D duplicate.adb		20181019142550 2887f120 duplicate%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 duplicate.ads
+2+9 Elem 4r45 5r29
+3E9 Index 4r26 6r58 2|1r58 2r8 3r8 4r7 8r13 15r16 17r13
+4A9 TArray(2+9)<3E9> 6r24 2|1r24
+5V19 "="{boolean} 5>23 5>26 2|10s19 10s37
+5*23 x{2+9}
+5*26 y{2+9}
+6u11*Duplicate 6>21 6<32 6<48 6<51 2|1b11 19l5 19t14
+6*21 a{4A9} 2|1b21 2r17 4r16 10r13 10r21 10r31 10r39
+6b32 b{boolean} 2|1b32 6m4 11m13
+6*48 i{3E9} 2|1b48 12m13
+6*51 j{3E9} 2|1b51 13m13
+X 2 duplicate.adb
+2*4 l1{1|3E9} 7r10 8r24 10r15 10r41 12r18 17m7 17r24
+3*4 l2{1|3E9} 8m7 9r13 10r23 10r33 13r18 15m10 15r27
+4*4 r{1|3E9} 7r15 9r19
+

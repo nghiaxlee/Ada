@@ -1,0 +1,75 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		af13581f NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W duplicate%s		duplicate.adb		duplicate.ali
+W reversal%s		reversal.adb		reversal.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D duplicate.ads		20181019142452 108aef86 duplicate%s
+D duplicate.adb		20181019142550 2887f120 duplicate%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D main.adb		20181019142504 00290911 main%b
+D reversal.ads		20181019140454 37ad0dd2 reversal%s
+D reversal.adb		20181019140646 2d722f3d reversal%b
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|2r6 3r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 12|2w10 3r9
+263U14*Put_Line 12|27s7 29s7
+X 8 duplicate.ads
+6u11*Duplicate 12|1w16 18r29
+X 12 main.adb
+4U11*Main 4b11 31l5 31t9
+5A9 t(integer)<integer> 6r7 17r61 18r57
+6a4 a{5A9} 25r12
+7i4 i{integer} 25m18 27r30
+7i7 j{integer} 25m21 27r49
+8b4 b{boolean} 25m15 26r7
+10U14 swap 10b14 10=19 10=22 15l8 15t12 17r64
+10i19 a{integer} 11r23 13m7
+10i22 b{integer} 13r12 14m7
+11i7 tmp{integer} 14r12
+17U14 Int_Reversal[13|6] 14|1b11
+18U14 Int_Dup[8|6] 9|1b11 12|25s4
+X 13 reversal.ads
+6u11*Reversal 12|1w6 17r34
+

@@ -1,0 +1,32 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U fold%b		fold.adb		3d3dcdf3 NE OO SU GE
+
+U fold%s		fold.ads		57194204 BN EE NE OO GE
+
+D fold.ads		20181019130814 57194204 fold%s
+D fold.adb		20181019130810 6a248ff7 fold%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 fold.ads
+2+10 Elem 4r48 5r29 5r43 6r15 8r35 2|1r36 2r8
+3E10 Index 4r28
+4A10 TArray(2+10)<3E10> 8r20 2|1r20
+5V19 Op{2+10} 5>23 5>26 2|5s18
+5*23 A{2+10}
+5*26 B{2+10}
+6*5 Start{2+10} 2|2r16
+8v10*Fold 8>17 2|1b10 8l5 8t9
+8*17 T{4A10} 2|1b17 4r14 5r25
+X 2 fold.adb
+2*5 S{1|2+10} 5m13 5r22 7r12
+4e9 I 5r27
+

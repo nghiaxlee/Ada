@@ -1,0 +1,32 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U map%b			map.adb			c850580e NE OO SU GE
+
+U map%s			map.ads			8846d129 BN EE NE OO GE
+
+D map.ads		20181019124810 8846d129 map%s
+D map.adb		20181019124806 40168927 map%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 map.ads
+2+10 A 5r50 7r25
+3+10 B 6r50 7r35
+4E10 Index 5r30 6r30
+5A10 TA_Array(2+10)<4E10> 8r18 2|1r18
+6A10 TB_Array(3+10)<4E10> 8r35 2|1r35 2r4
+7V19 Op{3+10} 7>22 2|5s8
+7*22 x{2+10}
+8v10*Map 8>14 2|1b10 8l5 8t8
+8*14 ta{5A10} 2|1b14 2r13 4r10 5r11
+X 2 map.adb
+2*1 tb{1|6A10} 5m1 7r8
+4e5 i 5r4 5r14
+

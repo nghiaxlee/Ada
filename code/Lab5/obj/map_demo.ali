@@ -1,0 +1,72 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U map_demo%b		map_demo.adb		078f452f NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W map%s			map.adb			map.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D map.ads		20181019124810 8846d129 map%s
+D map.adb		20181019124806 40168927 map%b
+D map_demo.adb		20181019125210 07d4275c map_demo%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgrea.ads		20180524051736 c7a851e2 system.img_real%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r11 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 12|1w15 2r9
+263U14*Put_Line 12|26s7 30s7
+X 10 map.ads
+8v10*Map 12|1w6 17r27 18r28
+X 12 map_demo.adb
+3U11*Map_demo 3b11 32l5 32t13
+4A9 t1(integer)<integer> 17r56 18r57 20r7
+5A9 t2(float)<integer> 17r60 18r61 21r7
+7V13 square{float} 7b13 7>21 10l8 10t14 17r64
+7i21 x{integer} 9r20 9r22
+12V13 half{float} 12b13 12>19 15l8 15t12 18r65
+12i19 x{integer} 14r20
+17V13 my_map[10|8]{5A9} 11|1b10 12|24s7
+18V13 my_map2[10|8]{5A9} 11|1b10 12|28s7
+20a4 a{4A9} 21r10 24r14 28r15
+21a4 b{5A9} 24m4 25r13 26r28 28m4 29r13 30r28
+25i8 i{integer} 26r30
+29i8 i{integer} 30r30
+

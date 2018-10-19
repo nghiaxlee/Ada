@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__test.o
+[PROJECT FILES]
+C:\Users\aaogmu\ada\code\Lab5\lab5.gpr
+20181019144108
+[BOUND OBJECT FILES]
+C:\Users\aaogmu\ada\code\Lab5\obj\has_repetition.o
+C:\Users\aaogmu\ada\code\Lab5\obj\most_frequent.o
+C:\Users\aaogmu\ada\code\Lab5\obj\test.o
+[GENERATED SOURCE FILES]
+b__test.ads
+b__test.adb
+b__test.ali
+[RESULTING OPTIONS]
+-LC:\Users\aaogmu\ada\code\Lab5\obj\
+-LC:\Users\aaogmu\ada\code\Lab5\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
