@@ -1,0 +1,28 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U count%b		count.adb		0c7fcff6 NE OO SU GE
+
+U count%s		count.ads		b396d28e BN EE NE OO GE
+
+D count.ads		20181116134840 b396d28e count%s
+D count.adb		20181116134202 bfe91d78 count%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 count.ads
+2E9 Index 3r23 3r39
+3A9 Grid(natural)<2E9><2E9> 4r22 2|1r22
+4v10*Count 4>16 2|1b10 10l5 10t10
+4*16 a{3A9} 2|1b16 4r13 5r16 6r23
+X 2 count.adb
+2i4 res{natural} 6m10 6r17 9r11
+4e8 i 6r25
+5e11 j 6r28
+
