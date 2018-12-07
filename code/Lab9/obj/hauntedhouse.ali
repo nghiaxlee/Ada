@@ -1,0 +1,112 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U hauntedhouse%b	hauntedhouse.adb	7b3ae4b6 OO PK IL
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W tools%s		tools.adb		tools.ali  ED
+
+U hauntedhouse%s	hauntedhouse.ads	fb3ba7cb EE NE OO PK IL
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180524051736 bb51c45a ada.numerics%s
+D a-nudira.ads		20180524051736 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180524051736 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D hauntedhouse.ads	20181207141206 fb3ba7cb hauntedhouse%s
+D hauntedhouse.adb	20181207143626 dd708e00 hauntedhouse%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-c.ads		20180524051736 5421119b interfaces.c%s
+D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imguns.ads		20180524051736 9ff43cf7 system.img_uns%s
+D s-multip.ads		20180524051736 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20180524051738 2e5b26a9 system.os_interface%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-rannum.ads		20180524051736 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20180524051738 20ba1217 system.random_numbers%b
+D s-ransee.ads		20180524051738 01a57b33 system.random_seed%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stausa.ads		20180524051736 017a0a05 system.stack_usage%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180524051738 601f6b72 system.task_info%s
+D s-taspri.ads		20180524051738 6c1d93d4 system.task_primitives%s
+D s-taskin.ads		20180524051738 1d8c1ccb system.tasking%s
+D s-taprob.ads		20180524051738 acd6094d system.tasking.protected_objects%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-valuns.ads		20180524051738 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D s-win32.ads		20180524051736 b7f96285 system.win32%s
+D tools.ads		20181207143626 5d71cd7d tools%s
+D tools.adb		20181207143626 d3a9bb6c tools%b
+X 6 a-nudira.adb
+53V16 Random[26|83]{integer} 27|392b13[45|18[12|6]]
+X 11 hauntedhouse.ads
+1K9*hauntedhouse 17E9 23l5 23e17 12|3b14 34l5 34t17
+4E9*Fields 4e28 13r43 17r68 12|13r43
+4n20*W{4E9} 18r53 19r49 19r53 20r47 21r51 21r53 12|20r28
+4n22*R{4E9} 18r55 19r47 20r53 20r55 21r49 21r55 22r47
+4n24*C{4E9} 18r47 18r49 18r51 19r51 19r55 20r49 20r51 21r47 22r49 22r53 22r55
+4n26*E{4E9} 22r51
+6R9*Position 9e14 11r25 12r28 13r26 14r31 12|8r31 13r26 18r25 23r28
+7i7*x{natural} 12|15r24 25r15 25r43
+8i7*y{natural} 12|15r30 26r15 26r43
+11V13*IsWall{boolean} 11>20 12|18b13 21l8 21t14 28s21
+11r20 pos{6R9} 12|18b20 20r23
+12V13*IsCorrect{boolean} 12>23 12|23b13 32l8 32t17
+12r23 pos{6R9} 12|23b23 25r11 25r39 26r11 26r39 28r28
+13V13*GetField{4E9} 13>22 12|13b13 16l8 16t16 20s14
+13r22 pos{6R9} 12|13b22 15r20 15r26
+14V13*GetRandPos{6R9} 12|8b13 11l8 11t18
+17A9 field_array(4E9)<integer><integer> 18r20
+18a4 House{17A9} 12|15r14
+X 12 hauntedhouse.adb
+5I12 Index{positive} 6r56 25r18 25r46 26r18 26r46
+6K12 Ind_Generator[44|9] 10r15 10r39
+X 13 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 26 s-rannum.ads
+75V13*Random{13|74M9} 27|221i21
+76V13*Random{13|77M9} 27|221i21
+X 32 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 44 tools.ads
+1K9*tools 12|1w6 6r33 44|14e10
+9k12*Random_Generator 12|6r39 44|12e24
+11V16*GetRandom{integer} 12|10s29[6] 10s53[6]
+

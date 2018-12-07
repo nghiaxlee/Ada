@@ -20,6 +20,10 @@ package body Bags is
       for i in 1..B.Size loop
          if x = B.Data(i).V then
             B.Data(i).N := B.Data(i).N - 1;
+            if (B.Data(i).N = 0) then
+               B.Data(i) := B.Data(B.Size);
+               B.Size := B.Size - 1;
+            end if;
          end if;
       end loop;
    end Remove;
